@@ -30,6 +30,10 @@ docker pull python
 
 > python `aliases=['python3']`
 
+查看历史输入
+
+> history
+
 离开交互环境
 
 > exit `aliases=['exit()', 'quit']`

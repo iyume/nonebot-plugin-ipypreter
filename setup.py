@@ -10,7 +10,7 @@ def main():
     dis = get_dis()
     setup(
         name="nonebot-plugin-ipypreter",
-        version="0.1.1",
+        version="0.1.2",
         url="https://github.com/iyume/nonebot-plugin-ipypreter",
         keywords=["nonebot"],
         description="An interactive python interpreter plugin for nonebot2",
