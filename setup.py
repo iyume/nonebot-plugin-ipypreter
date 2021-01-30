@@ -10,10 +10,10 @@ def main():
     dis = get_dis()
     setup(
         name="nonebot-plugin-ipypreter",
-        version="0.1.3",
+        version="0.1.5",
         url="https://github.com/iyume/nonebot-plugin-ipypreter",
         keywords=["nonebot"],
-        description="An interactive python interpreter plugin for nonebot2",
+        description="An message-interactive python interpreter plugin for nonebot2",
         long_description_content_type="text/markdown",
         long_description=dis,
         author="iyume",
@@ -28,7 +28,6 @@ def main():
             "Operating System :: OS Independent",
             "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         ],
-        package_data={'nonebot-plugin-ipypreter': ['store.db']},
         include_package_data=True,
     )
 
