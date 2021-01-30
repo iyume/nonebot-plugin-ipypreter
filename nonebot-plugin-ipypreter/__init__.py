@@ -121,10 +121,10 @@ async def _handle_filtr(bot: Bot, event: Event):
 
     try:
         stdout = await call_docker(text_encode(exec_cmds))
-    except docker.errors.ContainerError as e:
+    except docker.errors.ContainerError:
         stdout = None
         await database.disconnect()
-        await filtr.finish('\n'.join(['容器执行错误', f'命令：{next_cmd} 执行错误', str(e)]))
+        await filtr.finish('\n'.join(['容器执行错误', f'命令：{next_cmd} 执行错误']))
     else:
         await database.execute(f"UPDATE commands SET commands = '{store_cmds}' WHERE session_id = {event.get_session_id()}")
 

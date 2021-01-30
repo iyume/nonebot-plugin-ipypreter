@@ -1,3 +1,5 @@
 __pycache__/
 */__pycache__/
-
+dist/
+build/
+nonebot_plugin_ipypreter.egg-info/
