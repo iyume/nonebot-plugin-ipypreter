@@ -12,6 +12,12 @@
 可以在 Docker 内执行任何 Python 语句并返回结果
 
 ## 快速开始 Quickstart
+**注意**
+
+由于使用了 colon equal
+
+使用前请保证`python>=3.8`
+
 ```
 pip install nonebot-plugin-ipypreter
 ```
