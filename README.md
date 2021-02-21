@@ -53,3 +53,6 @@ docker pull python
 
 ## 优化建议
 如有优化建议请积极提交 issues 或者 pull requests
+
+## 改进打算
+更换原生 docker sdk 为 aiodocker
